@@ -1,0 +1,28 @@
+.MyAccountInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.Person{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 60%;
+}
+.ImgPerson{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: aliceblue;
+}
+.InfoPerson{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    color: aliceblue!important;
+}

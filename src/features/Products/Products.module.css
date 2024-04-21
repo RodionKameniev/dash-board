@@ -1,0 +1,22 @@
+.Products{
+    display: flex;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+}
+.MiddleSize{
+    width: 80%;
+}
+.ProductCard{
+    width: 20%!important;
+}
+.Orders{
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    color: #768392;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2A2C38;
+}

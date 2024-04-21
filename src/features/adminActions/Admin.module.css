@@ -1,0 +1,29 @@
+.Admin{
+    display: flex;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+}
+.AdminCard{
+    width: 20%!important;
+}
+.MiddleSize{
+    width: 80%;
+}
+.ImgPerson{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: aliceblue;
+}
+.Action{
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    color: #768392;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2A2C38;
+}

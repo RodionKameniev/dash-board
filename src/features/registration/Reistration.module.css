@@ -1,0 +1,25 @@
+.register {
+  background-color: #d1f;
+}
+
+.Registration {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.RegMenu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.RegInput {
+  margin: 3px 5px;
+  padding: 4px;
+}

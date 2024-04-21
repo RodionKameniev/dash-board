@@ -1,0 +1,60 @@
+.OrdersStyle{
+    display: flex;
+    width: 35%;
+    align-items: start;
+    justify-content: center;
+}
+.MyOrders{
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    color: #768392;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2A2C38;
+}
+.MyTable{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    /* width: 70%; */
+}
+.ProductCard{
+    width: 80%!important;
+}
+.DeleteOrder{
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    color: #768392;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2A2C38;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.DelOr{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+
+}
+.MaximumSize{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.Orders{
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    color: #768392;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2A2C38;
+}

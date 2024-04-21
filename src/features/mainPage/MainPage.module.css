@@ -1,0 +1,104 @@
+.Page{
+    display: flex;
+    width: 100%;
+    background-color: #232628;
+    /* justify-content: center;
+    align-items: center; */
+}
+.MainPage{
+    display: flex;
+    width: 100%;
+    height: 95%;
+    background-color: #232628;
+}
+.Field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.Orders{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    color: #768392;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2A2C38;
+}
+.Small{
+    font-size: 14px;
+}
+.Balance{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 330px;
+    color: #768392;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2A2C38;
+}
+.BalanceHistory{
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    height: 256px;
+    color: #768392;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2A2C38;
+}
+.Score{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 330px;
+    align-items: center;
+    color: #768392;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2A2C38;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+}
+.Subs{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    height: max-content;
+    border-radius: 10px;
+    color: #768392;
+    background-color: #2A2C38;
+}
+.SubsItem{
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    justify-content: space-between;
+    border-radius: 5px;
+    border-color: #5356EC;
+    color:#5356EC;
+    border-width: 2px;
+    border-style: solid;
+    font-weight: 600;
+}
+.Price{
+    display: inline-block;
+    background-color: #458224;
+    border-radius: 3px;
+    padding: 2px;
+    color: #61B733;
+}
+.Button{
+    background-color: #5356EC !important;
+}
