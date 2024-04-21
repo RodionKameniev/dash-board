@@ -79,6 +79,11 @@ body{
 .MButton{
   margin: 5px;
 }
+.Center{
+  display: flex!important;
+  flex-direction: column;
+  align-items: center!important;
+}
 .ExtraSize{
   display: flex;
   flex-direction: row;

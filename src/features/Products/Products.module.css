@@ -4,11 +4,60 @@
     align-items: start;
     justify-content: center;
 }
+.Cell{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;
+    background-color: #2A2C38;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+    padding: 2px;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+.ProductPlace{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
+.DelButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    color: red!important;
+    border-style: solid!important;
+    border-radius: 1px!important;
+    border-width: 1px!important;
+    padding: 2px!important;
+    border-color: red!important;
+    color: red!important;
+    background-color: #2A2C38;
+}
 .MiddleSize{
     width: 80%;
 }
 .ProductCard{
     width: 20%!important;
+}
+.ProductElement{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    width: 140px;
+    align-items: center;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    padding: 5px;
+    border-color: aliceblue;
+    color: aliceblue;
 }
 .Orders{
     display: flex;

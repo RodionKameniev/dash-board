@@ -65,6 +65,7 @@ export function Navigation() {
                             <Link className='NoneDec' to="/addproduct" >Add Product</Link>
                             <Link className='NoneDec' to="/myproducts">My Products</Link>
                             <Link className='NoneDec' to="/products">See All Products</Link>
+                            <Link className='NoneDec' to="/cellproducts">Show All Products</Link>
                             <Link className='NoneDec' to="/addorder">Make an Order</Link>
                         </div>
                     </div>

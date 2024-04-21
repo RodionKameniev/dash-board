@@ -19,6 +19,7 @@ import { EditProduct } from './features/Products/EditProduct';
 import { AddAdmin } from './features/adminActions/AddAdmin';
 import { AllUsers } from './features/adminActions/AllUsers';
 import { EditUser } from './features/adminActions/EditUser';
+import { ProductCell } from './features/Products/ProductCell';
 function App() {
   return (
     <BrowserRouter>
@@ -34,6 +35,7 @@ function App() {
       <Route path='/orders' element={<MyActiveOrders />}></Route>
       <Route path='/deleteanorder' element={<DeleteOrder />}></Route>
       <Route path='/myproducts' element={<MyProducts />}></Route>
+      <Route path='/cellproducts' element={<ProductCell/>}></Route>
       <Route path='/editproduct' element={<EditProduct />}></Route>
       <Route path='/addadmin' element={<AddAdmin />}></Route>
       <Route path='/users' element={<AllUsers />}></Route>

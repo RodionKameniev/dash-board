@@ -131,7 +131,7 @@ export function EditProduct() {
                                     dispatch(setProductStatus("You are not registraited"));
                                     return;
                                 }
-                                dispatch(deleteProductAsync({id: Product.id}))
+                                dispatch(deleteProductAsync({id: Product.id}));
                             }} type="button" className="MButton btn btn-primary">Delete</button></Link>
                         </div>
                     </div>
